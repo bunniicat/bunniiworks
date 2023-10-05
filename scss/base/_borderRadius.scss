@@ -1,0 +1,29 @@
+.br {
+  &__none {
+    border-radius: 0;
+  }
+  &__sm {
+    border-radius: 0.125rem;
+  }
+  &__base {
+    border-radius: 0.25rem;
+  }
+  &__md {
+    border-radius: 0.375rem;
+  }
+  &__lg {
+    border-radius: 0.5rem;
+  }
+  &__xl {
+    border-radius: 0.75rem;
+  }
+  &__2xl {
+    border-radius: 1rem;
+  }
+  &__3xl {
+    border-radius: 1.5rem;
+  }
+  &__full {
+    border-radius: 9999px;
+  }
+}

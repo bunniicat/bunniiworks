@@ -1,0 +1,19 @@
+$gap-counter: 5; //Adjust this to change the number of gap classes generated
+
+.hStack {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.vStack {
+  display: flex;
+  flex-direction: column;
+}
+
+@for $i from 1 through $gap-counter {
+  .stack_gap--#{$i} {
+    gap: #{$i * 0.5}rem;
+  }
+}

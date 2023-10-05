@@ -1,0 +1,43 @@
+$space-count: 10;
+
+@for $i from 0 through $space-count {
+  .m__#{$i} {
+    margin: #{$i * 1rem};
+  }
+
+  .mt__#{$i} {
+    margin-top: #{$i * 1rem};
+  }
+
+  .mr__#{$i} {
+    margin-right: #{$i * 1rem};
+  }
+
+  .mb__#{$i} {
+    margin-bottom: #{$i * 1rem};
+  }
+
+  .ml__#{$i} {
+    margin-left: #{$i * 1rem};
+  }
+
+  .p__#{$i} {
+    padding: #{$i * 1rem};
+  }
+
+  .pt__#{$i} {
+    padding-top: #{$i * 1rem};
+  }
+
+  .pr__#{$i} {
+    padding-right: #{$i * 1rem};
+  }
+
+  .pb__#{$i} {
+    padding-bottom: #{$i * 1rem};
+  }
+
+  .pl__#{$i} {
+    padding-left: #{$i * 1rem};
+  }
+}
